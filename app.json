@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Geebase",
+    "description": "A traffic Application which help one to adequately know the situation of traffic in their region and beyond the region.",
+    "slug": "geebase traffic application",
+    "privacy": "public",
+    "sdkVersion": "28.0.0",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "icon": "./assets/icons/app-icon.png",
+    "loading": {
+      "icon": "./assets/icons/loading-icon.png",
+      "hideExponentText": false
+    },
+    "packagerOpts": {
+      "assetExts": ["ttf", "mp4"]
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.geebase.trafficng"
+    }
+  }
+}
